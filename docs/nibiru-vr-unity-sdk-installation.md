@@ -1,12 +1,10 @@
 # Nibiru VR Unity SDK Installation
 
-## Download the Nibiru VR Unity SDK
-
-You can [download the Nibiru VR Unity SDK](https://users.wearvr.com/developers/devices/nibiru/resources/vr-unity-package) from WEARVR. You will be asked to create or sign into your developer account.
-
 ## Importing the unitypackage
 
 The Nibiru Unity VR SDK comes as a .unitypackage that you can import into your project via the **Assets › Import Package › Custom Package...** menu option in Unity.
+
+You can <a href="https://users.wearvr.com/developers/devices/nibiru/resources/vr-unity-package" target="_blank">download the Nibiru VR Unity SDK</a> from WEARVR. You will be asked to create or sign in to your developer account.
 
 <p align="center">
   <img alt="Import the .unitypackage as custom package"  width="500px" src="assets/ImportUnityPackageImage.png">

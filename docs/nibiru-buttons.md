@@ -24,8 +24,9 @@ Called in the first frame after a user’s finger is lifted off the touch pad an
 void OnPressEnter(bool isKeyUp)
 ```
 
-##### Parameters & Return value
+##### Parameters
 
+| Parameter | Description |
 |:---|:---|
 | `isKeyUp` | true in the first frame after the user’s finger is lifted off the touch pad.false in the frame after. |
 
@@ -124,4 +125,8 @@ public class ExitApplication : MonoBehaviour, INvrButtonListener {
 
 ### Next: Enabling developer mode
 
-See [Enabling USB debugging](/docs/nibiru-developer-mode-usb-debugging.md)
+If you have a development kit, see [Enabling USB debugging](/docs/nibiru-developer-mode-usb-debugging.md)
+
+If you do not have a development kit, but want to sell your VR experience on the Nibiru store see [Working with the current user](/docs/nibiru-sdk-user-management).
+
+Otherwise, move on to [Performance optimization](/docs/optimizing-nibiru-experiences.md).

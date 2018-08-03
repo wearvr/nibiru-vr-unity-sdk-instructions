@@ -41,15 +41,19 @@ You can easily create a new Unity VR app, but the fastest way to get up and runn
 
 Optional:
 
-* [Working with the current user](nibiru-sdk-user-management.md)
-* [Selling your app & payment SDK](nibiru-payment-sdk.md)
+* [Working with the current user](/docs/nibiru-sdk-user-management)
+* [Selling your app & payment SDK](/docs/nibiru-payment-sdk.md)
 * [Performance optimization](/docs/optimizing-nibiru-experiences.md)
 
 There is an [example project](examples/NibiruUnityVRSDKExample/Readme.md) to use as a reference as you follow this guide.
 
 ## Uploading and selling your experiences
 
-When you are ready, it's time to release your Nibiru VR experiences to the global and Chinese Nibiru stores [through WEARVR.com](https://users.wearvr.com/apps).
+When you are ready, it's time to release your Nibiru VR experiences to the global and Chinese Nibiru stores.
+
+If you are <a href="https://users.wearvr.com/developers/devices/nibiru/test-builds" target="_blank">submitting a test build</a>, you need to [disable the payment SDK](/docs/disabling-payment-sdk.md) so that it may be tested.
+
+If you want to <a href="https://users.wearvr.com/apps" target="_blank">submit the release version of your app</a>, you need to make sure the [payment SDK is enabled](/docs/disabling-payment-sdk.md).
 
 ## Copyright & Trademarks
 

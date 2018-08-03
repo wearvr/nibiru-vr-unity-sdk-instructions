@@ -112,6 +112,6 @@ NPVRAndroid.isEnable();
 
 ## Next
 
-If you are submitting a test build, you need to [disable the payment SDK](/docs/disabling-payment-sdk.md).
+If you are submitting a test build, you need to [disable the payment SDK](/docs/disabling-payment-sdk.md) so that it may be tested.
 
 If you want to [release your app](/Readme.md), you need to make sure the [payment SDK is enabled](/docs/disabling-payment-sdk.md).

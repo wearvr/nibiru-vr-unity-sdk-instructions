@@ -18,8 +18,6 @@ Change the **Texture Compression** option to **ETC2 (GLES 3.0)**.
 
 ## Building directly to a Nibiru headset
 
-> Before you attempt to build to a Nibiru device, ensure [you have enabled USB debugging](/docs/nibiru-developer-mode-usb-debugging.md).
-
 Connect your charged Nibiru device via USB to your development machine and then select the **File › Build & Run** menu option in Unity.
 
 Your app should then be installed and launched on the device.
@@ -30,6 +28,8 @@ Select the **File › Build Settings** menu option in Unity.
 
 Click the **Build** button and select where you would like to save the APK on your file system.
 
-## Next: Optimization
+## Next: Adding payments and user management
 
-See [optimizing your Nibiru experience](/docs/optimizing-nibiru-experiences.md).
+If you wish to sell your app on the Nibiru store, or access user details see [Working with the current user](/docs/nibiru-sdk-user-management).
+
+If not, move on to  [optimizing your Nibiru experience](/docs/optimizing-nibiru-experiences.md).

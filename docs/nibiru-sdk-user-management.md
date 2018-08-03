@@ -6,19 +6,19 @@ You should have already [integrated the Nibiru VR SDK](/docs/nibiru-vr-unity-sdk
 
 ## Importing the unitypackage
 
-The Nibiru Unity user and payment SDK comes as a .unitypackage that you can import into your project.
+The Nibiru Unity user and payment SDK comes as a *separate* .unitypackage that you can import into your project.
 
-Download the [Nibiru Payment SDK](https://users.wearvr.com/developers/devices/nibiru/resources/payment-unity-package) and import it via the **Assets › Import Package › Custom Package...** menu option in Unity.
+Download the <a href="https://users.wearvr.com/developers/devices/nibiru/resources/payment-unity-package" target="_blank">Nibiru Payment SDK</a> and import it via the **Assets › Import Package › Custom Package...** menu option in Unity.
 
 <p align="center">
   <img alt="Import the .unitypackage as custom package"  width="500px" src="assets/ImportUnityPackageImage.png">
 </p>
 
-Download the [`data.bin` file](https://users.wearvr.com/developers/devices/nibiru/resources/data-bin) and add it to the `Plugins/Android/assets` directory.
+Download the <a href="https://users.wearvr.com/developers/devices/nibiru/resources/data-bin" target="_blank">data.bin file</a> and add it to the `Plugins/Android/assets` directory.
 
 This allows your app to be distributed through WEARVR on the Nibiru platform.
 
-> The `data.bin` filename must be all in lowercase.
+> The `data.bin` file name must be all in lowercase, or it will not work.
 
 ## Integrate the SDK
 
@@ -162,6 +162,6 @@ void onNPVRLogout(string result){
 
 ## Next
 
-If you are submitting a test build, you need to [disable the payment SDK](/docs/disabling-payment-sdk.md).
+If you wish to sell your app on the Nibiru store, you will need to [integrate with the payment SDK](/docs/nibiru-payment-sdk.md).
 
-If you wish to sell your app, you will need to [integrate with the payment SDK](/docs/nibiru-payment-sdk.md).
+If not, move on to  [optimizing your Nibiru experience](/docs/optimizing-nibiru-experiences.md).

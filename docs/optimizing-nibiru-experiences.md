@@ -9,6 +9,8 @@ The following instructions are optional and should normally only be followed if 
 
 These steps can be completed even if you do not have a development kit to test on.
 
+If you wish to skip this step, move on to [submitting your VR experience](Readme.md#uploading-and-selling-your-experiences)
+
 ## Recommendations
 
 The following recommendations have been known to improve performance on Nibiru devices.
@@ -55,7 +57,7 @@ Open your **Build settings** using the **File > Build Settings**. Check the **De
 
 If you have a Nibiru development kit, connect the device via USB and build and run your application.
 
-If you do not have a development kit, build the APK and [submit it to WEARVR as a test build](https://users.wearvr.com/developers/devices/nibiru/test-builds), adding in the testing notes that you would like the profile logs for the build. WEARVR will run it on a Nibiru headset for you and send you the results so you can use them to diagnose any performance problems.
+If you do not have a development kit, build the APK and <a href="https://users.wearvr.com/developers/devices/nibiru/test-builds" target="_blank">submit a test build</a>, adding in the testing notes that you would like the profile logs for the build. WEARVR will run it on a Nibiru headset for you and send you the results so you can use them to diagnose any performance problems.
 
 ## Capturing the profile logs
 
@@ -96,3 +98,7 @@ When working correctly, you should see logging like the following appear at regu
 ## Understanding the logs
 
 Unity has an [excellent guide](https://docs.unity3d.com/Manual/iphone-InternalProfiler.html) that will help you interpret the performance profile logs. This should be read in conjunction with Unity’s explanation of [CPU bound and GPU bound performance issues](https://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html) to guide your approach to addressing performance problems.
+
+## Next: Submission
+
+It's time to [submit your VR experience](Readme.md#uploading-and-selling-your-experiences).
