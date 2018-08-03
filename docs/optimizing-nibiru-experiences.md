@@ -9,7 +9,7 @@ The following instructions are optional and should normally only be followed if 
 
 These steps can be completed even if you do not have a development kit to test on.
 
-If you wish to skip this step, move on to [submitting your VR experience](Readme.md#uploading-and-selling-your-experiences)
+If you wish to skip this step, move on to [submitting your VR experience](/Readme.md#uploading-and-selling-your-experiences)
 
 ## Recommendations
 
@@ -101,4 +101,4 @@ Unity has an [excellent guide](https://docs.unity3d.com/Manual/iphone-InternalPr
 
 ## Next: Submission
 
-It's time to [submit your VR experience](Readme.md#uploading-and-selling-your-experiences).
+It's time to [submit your VR experience](/Readme.md#uploading-and-selling-your-experiences).
