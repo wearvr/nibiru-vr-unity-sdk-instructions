@@ -18,4 +18,4 @@ If you are submitting a [release build](https://users.wearvr.com/apps), then you
 
 ## Next: Optimization
 
-Before submitting, you should take a look at [optimizing your Nibiru experience](/docs/optimizing-nibiru-experiences.md).
+It's time to [submit your VR experience](/Readme.md#uploading-and-selling-your-experiences).

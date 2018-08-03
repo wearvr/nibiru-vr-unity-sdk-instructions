@@ -53,7 +53,7 @@ When you are ready, it's time to release your Nibiru VR experiences to the globa
 
 If you are <a href="https://users.wearvr.com/developers/devices/nibiru/test-builds" target="_blank">submitting a test build</a>, you need to [disable the payment SDK](/docs/disabling-payment-sdk.md) so that it may be tested.
 
-If you want to <a href="https://users.wearvr.com/apps" target="_blank">submit the release version of your app</a>, you need to make sure the [payment SDK is enabled](/docs/disabling-payment-sdk.md).
+If you want to <a href="https://users.wearvr.com/apps" target="_blank">submit the release version of your app</a>, you need to make sure the [payment SDK is enabled](/docs/disabling-payment-sdk.md#enabling-the-payment-sdk).
 
 ## Copyright & Trademarks
 
