@@ -41,7 +41,7 @@ You can easily create a new Unity VR app, but the fastest way to get up and runn
 
 Optional:
 
-* [Working with the current user](/docs/nibiru-sdk-user-management)
+* [Working with the current user](/docs/nibiru-sdk-user-management.md)
 * [Selling your app & payment SDK](/docs/nibiru-payment-sdk.md)
 * [Performance optimization](/docs/optimizing-nibiru-experiences.md)
 

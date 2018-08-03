@@ -30,6 +30,6 @@ Click the **Build** button and select where you would like to save the APK on yo
 
 ## Next: Adding payments and user management
 
-If you wish to sell your app on the Nibiru store, or access user details see [Working with the current user](/docs/nibiru-sdk-user-management).
+If you wish to sell your app on the Nibiru store, or access user details see [Working with the current user](/docs/nibiru-sdk-user-management.md).
 
 If not, move on to  [optimizing your Nibiru experience](/docs/optimizing-nibiru-experiences.md).
