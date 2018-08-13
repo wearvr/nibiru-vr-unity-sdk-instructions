@@ -6,13 +6,14 @@ This is a required step if you wish to sell your VR experience on the Nibiru pla
 
 The payment SDK works offline, so users do not need an internet connection to play your VR experience.
 
-You should have already [integrated the Nibiru VR SDK](/docs/nibiru-vr-unity-sdk-installation.md) into your project and set up [user management](/docs/nibiru-sdk-user-management.md) to sign the current user in before you attempting these instructions.
-
 ## Paid apps
 
-If you wish to sell your VR content on Nibiru, then you need to call the NPVRAndroid.enablePayForD() method before `NPVRAndroid.onStart()`:
+You should have already [integrated the Nibiru VR SDK](/docs/nibiru-vr-unity-sdk-installation.md) into your project and set up [user management](/docs/nibiru-sdk-user-management.md) to sign the current user in before you attempting these instructions.
+
+If you wish to sell your VR content on Nibiru, then you need to call the `NPVRAndroid.enablePayForD()` method before `NPVRAndroid.onStart()`:
 
 ```cs
+# if !NIBIRU_PAYMENT_SDK_DISABLED
 void Start () {
 	NPVRAndroid.init ();
 
@@ -22,6 +23,7 @@ void Start () {
 	NPVRAndroid.enableLog (true);
 	NPVRAndroid.onStart ();
 }
+#endif
 ```
 
 Once enabled, the Nibiru Payment SDK will close your app immediately unless it is launched on a Nibiru headset where the current user has paid for the experience.
